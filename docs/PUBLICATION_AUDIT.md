@@ -20,6 +20,8 @@ Date: 2026-09-14
 - Third-party source/assets: none bundled; product names appear only as interoperability references.
 - License: MIT.
 - Local Markdown links resolved and `scripts/preflight.sh` passed shell syntax validation.
+- GitHub Secret Scanning and Push Protection enabled.
+- GitHub private vulnerability reporting enabled for responsible disclosure.
 
 ## Residual limitations
 
