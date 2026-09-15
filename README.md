@@ -130,6 +130,7 @@ acceptance testing.
 ## Repository map
 
 - [docs/LEARNING.md](docs/LEARNING.md) — protocols and engineering concepts
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) — ingress, deployment, and migration architecture
 - [docs/DECISIONS.md](docs/DECISIONS.md) — architecture decision records
 - [docs/PORTFOLIO.md](docs/PORTFOLIO.md) — business case and evidence model
 - [docs/PUBLICATION_AUDIT.md](docs/PUBLICATION_AUDIT.md) — privacy/security release gate

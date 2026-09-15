@@ -63,3 +63,15 @@
   consequential tradeoffs in ADRs.
 - **Reason:** Reviewable version history turns a setup exercise into reproducible
   engineering and portfolio evidence.
+
+## ADR-009: Scale one active gateway before adding gateways
+
+- **Status:** accepted as the evolution direction
+- **Decision:** Add devices, sessions, agents, and remote nodes behind one active
+  gateway. Introduce another gateway only for hard isolation or active-passive
+  recovery, not as the default way to add capacity.
+- **Reason:** Channel webhooks need one authoritative receiver, and shared mutable
+  session state makes uncoordinated active-active gateways prone to duplicate or
+  divergent processing.
+- **Tradeoff:** The gateway remains a failure domain until health checks, verified
+  backups, a stable ingress name, and a tested standby cutover are implemented.
