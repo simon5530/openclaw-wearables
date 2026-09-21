@@ -18,7 +18,10 @@
 
 ## Contribution checks
 
-Before every release:
+Before every release, follow the reusable
+[publication security gate](https://github.com/simon5530/applied-agent-systems/blob/main/docs/PUBLICATION_SECURITY_GATE.md)
+and update this repository's `docs/PUBLICATION_AUDIT.md`. The checks below are the
+wearables-specific additions and minimum local summary:
 
 1. scan the current tree and complete Git history for secrets;
 2. scan for personal email, home-directory paths, channel IDs, private IPs, and hostnames;

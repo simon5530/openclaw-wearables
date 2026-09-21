@@ -1,6 +1,6 @@
 # Publication audit
 
-Date: 2026-09-14
+Last verified: 2026-09-21
 
 ## Scope
 
@@ -13,6 +13,7 @@ Date: 2026-09-14
 ## Checks
 
 - Gitleaks 8.30.1 full-history scan: no secrets detected.
+- Gitleaks 8.30.1 current-tree scan: no secrets detected.
 - Custom privacy scan: no personal email, channel sender ID, user home path,
   Tailscale hostname/IP, auth-profile ID, or private-key marker detected.
 - Commit history rebuilt as a sanitized public baseline using a GitHub noreply address.
@@ -20,6 +21,8 @@ Date: 2026-09-14
 - Third-party source/assets: none bundled; product names appear only as interoperability references.
 - License: MIT.
 - Local Markdown links resolved and `scripts/preflight.sh` passed shell syntax validation.
+- Repository-specific security rules now reference the reusable publication gate in
+  `simon5530/applied-agent-systems`; this audit remains the project-specific evidence.
 - GitHub Secret Scanning and Push Protection enabled.
 - GitHub private vulnerability reporting enabled for responsible disclosure.
 
